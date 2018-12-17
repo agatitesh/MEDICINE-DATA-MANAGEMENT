@@ -9,7 +9,7 @@ const app=express();
 
 app.use(bodyparser.json());
 
-const route=require('./route/route');
+const route=require('./route');
 
 
 app.use('/',route)
